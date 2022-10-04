@@ -7,7 +7,7 @@ from django.contrib.auth.decorators import login_required
 
 
 # conexion au dashbord
-@login_required
+#@login_required
 def create(request):
     form = PharmForm()
     de_garde = Pharms_de_garde.objects.all()
